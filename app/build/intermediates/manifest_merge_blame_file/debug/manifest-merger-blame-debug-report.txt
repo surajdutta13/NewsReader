@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.newsreader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:22:5-67
+11-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:22:22-64
+12
+13    <application
+13-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:5:5-20:19
+14        android:allowBackup="true"
+14-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\suraj\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:7:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:8:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:9:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:10:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:11:9-40
+24        <activity android:name="com.example.android.newsreader.ArticleActivity" />
+24-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:12:9-62
+24-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:12:19-50
+25        <activity android:name="com.example.android.newsreader.MainActivity" >
+25-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:13:9-19:20
+25-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:13:19-47
+26            <intent-filter>
+26-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:14:13-18:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:15:17-69
+27-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:15:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:17:17-77
+29-->C:\Users\suraj\AndroidStudioProjects\NewsReader\app\src\main\AndroidManifest.xml:17:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>
